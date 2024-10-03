@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Kavivanar:regular);
+
+* {
+	font-family: Kavivanar;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.page {
+	display: flex;
+	border: 15px black solid;
+	width: 37rem;
+	border-radius: 15px;
+	flex-direction: column;
+}
+
+.haut {
+	background: #d9d9d9;
+	border: 15px black solid;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 30px;
+	height: 4rem;
+}
+
+.haut-1 {
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 5px black dashed;
+	font-weight: bold;
+}
+
+img {
+	width: 95%;
+	border: 15px black solid;
+}
+
+.rectangle {
+	background: radial-gradient(
+		50% 138.22% at 50% 50%,
+		#000000 0%,
+		#0084a8 20%,
+		#0015ff 40%,
+		#000000 60%,
+		#0084a8 80%,
+		#0015ff 100%
+	);
+
+	border: 15px black solid;
+}
+
+.carrée {
+	margin: 15px;
+	background: #d9d9d9;
+	border: 5px black solid;
+	border-radius: 15px;
+}
+
+.carrée > p {
+	margin: 15px;
+}
+
+.button {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 15px;
+	padding: 15px;
+}
+
+.button > button {
+	width: 10rem;
+	background: transparent;
+	border: black 1px solid;
+	border-radius: 5px;
+	margin-top: 5px;
+}
